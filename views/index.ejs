@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+            .div-style{
+                margin-top : 4em;
+                padding : 3rem;
+                background: white;
+                border-radius: 20px;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 0.5rem 1rem 0px;
+            }
+            .text-box{
+                border-radius: 1rem;
+                margin-top : 1rem;
+            }
+            .button-submit{
+                width: 50%;
+                border-radius: 1rem;
+                margin-top : 1rem
+            }
+            .body-background {
+                background-image: linear-gradient(to right, #c48db8, #a8a4de, #7cbcf0, #5cd1ea, #74e0d1);
+            }
+            .main-label{
+                margin: 1rem;
+            }
+        </style>
+</head>
+<body class="body-background">
+    <div class="container">
+        <div class="row d-flex justify-content-center mx-auto">
+            <div class="col-md-8 col-xs-12 div-style">
+                <div class="d-flex justify-content-center mx-auto main-label" >
+                    <h1>Detail Informasi</h1>
+                </div> 
+                <div class="row justify-content-center">
+                    <div class="col-md-3"> <h3>Nama</h3></div>
+                    <div class="col-md-1"> <h3>:</h3></div>
+                    <div class="col-md-5"><h3><%= nama %></h3></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-3"> <h3>Email</h3></div>
+                    <div class="col-md-1"> <h3>:</h3></div>
+                    <div class="col-md-5"><h3><%= email %></h3></div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-3"> <h3>No Telp</h3></div>
+                    <div class="col-md-1"> <h3>:</h3></div>
+                    <div class="col-md-5"><h3><%= notelp %></h3></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
